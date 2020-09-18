@@ -307,6 +307,8 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: max-content;
+        margin-bottom: 0;
     }
 
     &__logo {
@@ -389,5 +391,21 @@ p {
                 }
             }
         }
+    }
+}
+
+.attribution {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 4rem;
+    color: var(--color-dark-greyish-blue);
+    font-size: 11px;
+
+    a { 
+        margin-left: 5px;
+        color: var(--color-light-blue); 
     }
 }

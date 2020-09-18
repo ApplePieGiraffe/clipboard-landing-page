@@ -269,7 +269,9 @@ p {
     .footer {
       display: flex;
       flex-direction: column;
-      align-items: center; } }
+      align-items: center;
+      height: max-content;
+      margin-bottom: 0; } }
   .footer__logo {
     flex: 1;
     display: flex;
@@ -318,6 +320,19 @@ p {
         fill: var(--color-greyish-blue); }
       .footer__social ul li:not(:last-child) {
         margin-right: 4rem; }
+
+.attribution {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 4rem;
+  color: var(--color-dark-greyish-blue);
+  font-size: 11px; }
+  .attribution a {
+    margin-left: 5px;
+    color: var(--color-light-blue); }
 
 body {
   color: var(--color-greyish-blue);
